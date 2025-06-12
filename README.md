@@ -33,6 +33,7 @@ CREATE TABLE SCHEDULE (
 
 Without access to these snowflake tables, a sample play_by_play.csv and schedule.csv file is available in the static folder.  
 
+---
 ## Virtual environment setup
 
 To set up a virtual environment to be compatible with Snowpark and the packages in this repo, run the following commands:
