@@ -2,9 +2,9 @@
 ### Based off of [LwrncLiu/march_madness](https://github.com/LwrncLiu/march_madness)   
 ---
 ![alt text](sample/example.png)
-
+---
 The play by play and schedule data were acquired from <a href="https://py.sportsdataverse.org/docs/mbb/">sportsdataverse's</a> men's college basketball python package and loaded into Snowflake tables with the following schema: 
-
+---
 ```
 CREATE TABLE PLAY_BY_PLAY (
     GAME_ID INT,
@@ -19,7 +19,7 @@ CREATE TABLE PLAY_BY_PLAY (
     AWAY_TEAM_ID INT,
     HOME_TEAM_ID INT,
 );
-
+---
 CREATE TABLE SCHEDULE (
     GAME_ID INT,
     NOTES_HEADLINE VARCHAR,
