@@ -2,7 +2,7 @@
 ### Based off of [LwrncLiu/march_madness](https://github.com/LwrncLiu/march_madness)   
 ---
 ![alt text](sample/example.png)
----
+
 The play by play and schedule data were acquired from <a href="https://py.sportsdataverse.org/docs/mbb/">sportsdataverse's</a> men's college basketball python package and loaded into Snowflake tables with the following schema: 
 
 ```
