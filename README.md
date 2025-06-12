@@ -4,9 +4,8 @@
 ![alt text](sample/example.png)
 
 ---
-The play by play and schedule data were acquired from <a href="https://py.sportsdataverse.org/docs/mbb/">sportsdataverse's</a> men's college basketball python package and loaded into Snowflake tables with the following schema: 
+### The play by play and schedule data were acquired from <a href="https://py.sportsdataverse.org/docs/mbb/">sportsdataverse's</a> men's college basketball python package and loaded into Snowflake tables with the following schema: 
 
----
 ```
 CREATE TABLE PLAY_BY_PLAY (
     GAME_ID INT,
